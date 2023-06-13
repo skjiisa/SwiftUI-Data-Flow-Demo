@@ -2,7 +2,7 @@
 //  SwiftUI_Data_FlowApp.swift
 //  SwiftUI Data Flow
 //
-//  Created by Elaine Lyons on 6/12/23.
+//  Created by Elaine Léon on 6/12/23.
 //
 
 import SwiftUI

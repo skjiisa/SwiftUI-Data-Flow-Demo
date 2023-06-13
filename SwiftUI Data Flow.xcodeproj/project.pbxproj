@@ -14,6 +14,7 @@
 		D7FC1A8A2A37DF0300259DB3 /* Demo 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC1A892A37DF0300259DB3 /* Demo 1.swift */; };
 		D7FC1A8C2A37E12500259DB3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC1A8B2A37E12500259DB3 /* Helper.swift */; };
 		D7FC1A8E2A37E72A00259DB3 /* Demo 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC1A8D2A37E72A00259DB3 /* Demo 2.swift */; };
+		D7FC1A902A37F62600259DB3 /* Demo 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC1A8F2A37F62600259DB3 /* Demo 3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D7FC1A892A37DF0300259DB3 /* Demo 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Demo 1.swift"; sourceTree = "<group>"; };
 		D7FC1A8B2A37E12500259DB3 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		D7FC1A8D2A37E72A00259DB3 /* Demo 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Demo 2.swift"; sourceTree = "<group>"; };
+		D7FC1A8F2A37F62600259DB3 /* Demo 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Demo 3.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D7FC1A8B2A37E12500259DB3 /* Helper.swift */,
 				D7FC1A892A37DF0300259DB3 /* Demo 1.swift */,
 				D7FC1A8D2A37E72A00259DB3 /* Demo 2.swift */,
+				D7FC1A8F2A37F62600259DB3 /* Demo 3.swift */,
 				D7FC1A7F2A37DE5F00259DB3 /* Assets.xcassets */,
 				D7FC1A812A37DE5F00259DB3 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				D7FC1A8A2A37DF0300259DB3 /* Demo 1.swift in Sources */,
 				D7FC1A8E2A37E72A00259DB3 /* Demo 2.swift in Sources */,
 				D7FC1A7E2A37DE5F00259DB3 /* ContentView.swift in Sources */,
+				D7FC1A902A37F62600259DB3 /* Demo 3.swift in Sources */,
 				D7FC1A7C2A37DE5F00259DB3 /* SwiftUI_Data_FlowApp.swift in Sources */,
 				D7FC1A8C2A37E12500259DB3 /* Helper.swift in Sources */,
 			);
