@@ -9,10 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Demo_1()
-        }
-        .padding()
+        Demo_2()
     }
 }
 
