@@ -33,11 +33,9 @@ struct Demo_2: View {
             }
             
             Section {
-                /*
-                Button("Sort") {
-                    self.viewModel.sortByPrice()
+                Button("Shuffle") {
+                    self.viewModel.shuffle()
                 }
-                 */
                 
                 Button("Randomize") {
                     self.viewModel.randomize()
@@ -125,14 +123,14 @@ extension Demo_2 {
         func sortByPrice() {
             self.items.sort { $0.price > $1.price }
         }
-        
-        func randomize() {
-            self.items.shuffle()
-        }
          */
         
+        func shuffle() {
+            self.items.shuffle()
+        }
+        
         func randomize() {
-            let index = self.items.firstIndex { $0.price == 99999 }
+            let index = self.items.firstIndex { $0.price == 9999 }
             guard let index else { return }
             self.items[index].title = String(UUID().uuidString.prefix(8))
         }
@@ -150,7 +148,7 @@ extension Demo_2 {
         Item(title: "Vision Pro", price: 3500, symbol: "dollarsign.circle"),
         Item(
             title: String(UUID().uuidString.prefix(8)),
-            price: 99999,
+            price: 9999,
             symbol: "infinity.circle"
         ),
     ]
